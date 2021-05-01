@@ -1,0 +1,6 @@
+p = int(input("Enter the principle amount : "))
+r = int(input("Enter the intrest rate : "))
+n =int(input("Enter the no. of time intrest is compunded per year : "))
+t =int(input("Enter the time period  : "))
+CI=  p*(1+n/r)**(n*t)
+print(f" The compund intrest is {CI} .")
