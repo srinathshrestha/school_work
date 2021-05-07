@@ -16,15 +16,9 @@
 #
 #
 #
-#
-
-l=[]
-g=0
-for i in range(10):
-    a = int(input("enter the elements : "))
-    l.append(a)
-
-for i in range(10):
-    if l[i]>g:
-        l[i]=g
-        print(f"{g} is the greates number.")
+g=int(input("Entr the Number : "))
+for i in range (9-1):
+    a = int(input('Enter the Number : '))
+    if a>g:
+        g=a
+print(g)
