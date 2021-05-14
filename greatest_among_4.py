@@ -7,7 +7,7 @@
 
 
 g=int(input("Entr the Number : "))
-for i in range (4-1):
+for i in range (3-1):
     a = int(input('Enter the Number : '))
     if a>g:
         g=a
